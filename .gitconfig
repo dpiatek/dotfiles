@@ -1,0 +1,29 @@
+[user]
+	name = Dominik Piatek
+	email = dominik.piatek@econsultancy.com
+[core]
+	excludesfile = /Users/piatek/.gitignore_global
+[alias]
+    s = status
+    ci = commit
+    co = checkout
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    pushci = push -f origin HEAD:ci-dominik
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan

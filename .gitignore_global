@@ -1,0 +1,16 @@
+# Editor
+*.sublime-workspace
+*.sublime-project
+
+# Packages
+*.zip
+*.rar
+
+# Ruby
+.rbenv-version
+
+# OS
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
