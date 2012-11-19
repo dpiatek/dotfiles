@@ -8,12 +8,13 @@ alias ~~="cd ~"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias p="cd ~/Projects"
-alias g="git"
 alias h="history"
 alias j="jobs"
 alias v="vim"
 alias s="subl ."
 alias c="clear"
+
+alias munch="open -a ImageOptim.app"
 
 # Git
 alias g="git status"
