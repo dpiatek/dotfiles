@@ -91,3 +91,12 @@ function unquarantine() {
 		xattr -r -d "$attribute" "$@"
 	done
 }
+
+# Change terminal tab name
+function tab {
+    printf "\e]1;$1\a"
+}
+# Change terminal window name   
+function win {
+    printf "\e]2;$1\a"
+}
