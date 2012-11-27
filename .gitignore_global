@@ -9,6 +9,9 @@
 # Ruby
 .rbenv-version
 
+# SCSS
+.sass-cache
+
 # OS
 .DS_Store
 .DS_Store?
