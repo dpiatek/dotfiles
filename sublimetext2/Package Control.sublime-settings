@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Autocomplete Javascript with Method Signature",
+		"Color Scheme - Frontend Delight",
+		"Emmet",
+		"ERB Insert and Toggle Commands",
+		"HTML5",
+		"jQuery",
+		"JSHint",
+		"JSLint",
+		"LESS",
+		"Markdown Preview",
+		"Package Control",
+		"Pretty JSON",
+		"Sass",
+		"SideBarEnhancements",
+		"Sublime-JSHint",
+		"SublimeLinter",
+		"Theme - Soda",
+		"ZenCoding"
+	]
+}

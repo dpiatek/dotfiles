@@ -1,0 +1,26 @@
+{
+	"color_scheme": "Packages/Color Scheme - Frontend Delight/FrontEndDelightColorScheme.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"cache/sass",
+		"tmp/cache"
+	],
+	"font_face": "Source Code Pro Light",
+	"font_size": 15.0,
+	"ignored_packages":
+	[
+		"JSLint",
+		"JSHint",
+		"Autocomplete Javascript with Method Signature"
+	],
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 4,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

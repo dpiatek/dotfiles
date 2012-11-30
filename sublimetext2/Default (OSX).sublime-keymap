@@ -1,0 +1,9 @@
+[
+	{ "keys": ["super+ctrl+c"], "command": "close_project" },
+	{ "keys": ["super+ctrl+s"], "command": "save_project_as" },
+	{ "keys": ["super+ctrl+a"], "command": "prompt_add_folder" },
+	{ "keys": ["ctrl+super+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+super+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["shift+super+up"], "command": "swap_line_up" },
+	{ "keys": ["shift+super+down"], "command": "swap_line_down" }
+]
