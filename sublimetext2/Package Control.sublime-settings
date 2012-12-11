@@ -2,7 +2,11 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Autocomplete Javascript with Method Signature",
+		"CoffeeCompile",
+		"CoffeeLint",
+		"CoffeeScript",
 		"Color Scheme - Frontend Delight",
 		"Emmet",
 		"ERB Insert and Toggle Commands",
