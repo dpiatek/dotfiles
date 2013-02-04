@@ -44,3 +44,6 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 
 # Add git completion
 source ~/bin/git-completion.bash
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
