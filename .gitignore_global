@@ -8,6 +8,7 @@
 
 # Ruby
 .rbenv-version
+.rbenv-gemsets
 
 # SCSS
 .sass-cache
