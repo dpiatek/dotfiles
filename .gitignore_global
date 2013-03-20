@@ -1,6 +1,7 @@
 # Editor
 *.sublime-workspace
 *.sublime-project
+*.swp
 
 # Packages
 *.zip
@@ -13,8 +14,12 @@
 # SCSS
 .sass-cache
 
+# node.js
+node_modules
+
 # OS
 .DS_Store
 .DS_Store?
 .Spotlight-V100
 .Trashes
+

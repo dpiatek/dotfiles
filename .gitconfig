@@ -4,12 +4,9 @@
 [core]
 	excludesfile = /Users/piatek/.gitignore_global
 [alias]
-    s = status
-    ci = commit
-    co = checkout
-    br = branch
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
     pushci = push -f origin HEAD:ci-dominik
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [color]
     branch = auto
     diff = auto
@@ -27,16 +24,4 @@
     added = yellow
     changed = green
     untracked = cyan
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[diff]
-	tool = Kaleidoscope
-[difftool]
-	prompt = false
-[mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
-[mergetool]
-	prompt = false
-[merge]
-	tool = Kaleidoscope
+

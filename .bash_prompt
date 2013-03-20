@@ -22,7 +22,6 @@ fi
 
 tput sgr 0 0
 
-
 # Base styles and color palette
 # Solarized colors
 # https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
@@ -37,7 +36,6 @@ SOLAR_BLUE=$(tput setaf 33)
 SOLAR_CYAN=$(tput setaf 37)
 SOLAR_GREEN=$(tput setaf 64)
 SOLAR_WHITE=$(tput setaf 254)
-
 
 # Git status.
 # Adapted from: https://github.com/cowboy/dotfiles/
@@ -74,3 +72,4 @@ PS1+="${SOLAR_GREEN}\w" # Working directory
 PS1+="\$(prompt_git)" # Git details
 PS1+="${RESET}\n" # Newline
 PS1+="-> " # ->
+
