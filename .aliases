@@ -1,24 +1,26 @@
-# Easier navigation: .., ..., ...., ....., ~ and -
+# Navigation:
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~~="cd ~"
+alias d="cd ~/death_star"
+alias gov="cd ~/govenor"
+alias p="cd ~/projects"
 
 # Shortcuts
 alias v="vim"
 alias c="clear"
+alias s="subl ."
+alias gs="git-sh"
+alias gf="git fetch && git-sh"
+alias df="cd ~/death_star && git fetch && git-sh"
+alias refresh="source ~/.bash_profile && echo \"Profile refreshed\""
 
 # Git
-alias g="git status"
-alias ga="git add"
-alias gq="git commit"
-alias gc="git checkout"
-alias gcb="git checkout -b"
-alias gd="git diff"
-alias gl="git lg -25"
+alias g="git"
 
-# Rails
+# Rails & Ruby
 alias rs="bundle exec rails server -e asset_development"
 
 # Detect which `ls` flavor is in use
