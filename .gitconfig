@@ -4,24 +4,32 @@
 [core]
 	excludesfile = /Users/piatek/.gitignore_global
 [alias]
-    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-    pushci = push -f origin HEAD:ci-dominik
-    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  s = status
+  a = add
+  q = commit
+  c = checkout
+  d = diff
+  pushci = push -f origin HEAD:ci-dominik
+  pushup = push origin HEAD
+  l = log --graph --pretty=format:'%Cred%h%Creset - %s (%Cgreen%cr, %C(yellow)%an%Creset)' --abbrev-commit --date=relative
+  lm = log --graph --pretty=format:'%Cred%h%Creset - %s (%Cgreen%cr, %C(yellow)%an%Creset)' master.. --abbrev-commit --date=relative
+  la = log --graph --abbrev-commit --date=relative --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s (%Cgreen%cr, %an%Creset)'
 [color]
-    branch = auto
-    diff = auto
-    status = auto
+  branch = auto
+  diff = auto
+  status = auto
+	sh = auto
 [color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 [color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 
