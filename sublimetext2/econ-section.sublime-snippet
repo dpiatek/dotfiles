@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[//@ $1
-//////////////////////////////////////// ->
-]]></content>
-  <tabTrigger>com1</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <description>Econsultancy section comment</description>
-  <scope>source.sass</scope>
-</snippet>

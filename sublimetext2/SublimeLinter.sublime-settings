@@ -1,8 +1,0 @@
-{
-    "csslint_options": {
-        "box-model": false,
-        "ids": false,
-        "qualified-headings": false
-    }
-}
-
