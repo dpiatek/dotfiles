@@ -19,13 +19,16 @@ function prompt_git() {
     if [[ "$flags" ]]; then
         output="$output[$flags]"
     fi
-    echo -ne " on ${output}"
+    echo -ne " ${output}"
 }
 
+# Unicode printer!
+char="`printf '\xE2\x98\x85'`"
 
 # Build the prompt
-PS1="\033[32m\w\033[0m" # Working directory
-PS1+="\033[35m\$(prompt_git)\033[0m" # Git details
+PS1="\w" # Working directory
+PS1+="\033[31m\$(prompt_git) " # Git details
+PS1+="\033[0m\t" # Time
 PS1+="\n" # Newline
-PS1+="-> " # >>
+PS1+="\033[31m${char}\033[0m  " #
 
