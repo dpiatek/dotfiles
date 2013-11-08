@@ -12,13 +12,18 @@ alias p="cd ~/projects"
 alias v="vim"
 alias c="clear"
 alias s="subl ."
-alias gs="git-sh"
-alias gf="git fetch && git-sh"
 alias df="cd ~/death_star && git fetch && git-sh"
 alias refresh="source ~/.bash_profile && echo \"Profile refreshed\""
 
 # Git
 alias g="git"
+alias ga="git add"
+alias gs="git status"
+alias gc="git checkout"
+alias gq="git commit"
+alias gd="git diff"
+alias gt="git diff --cached"
+alias gf="git fetch"
 
 # Rails & Ruby
 alias rs="bundle exec rails server -e asset_development"

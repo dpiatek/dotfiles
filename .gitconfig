@@ -9,7 +9,7 @@
   q = commit
   c = checkout
   d = diff
-  pushci = push -f origin HEAD:ci-dominik
+  pushci = push ci HEAD
   pushup = push origin HEAD
   l = log --graph --pretty=format:'%Cred%h%Creset - %s (%Cgreen%cr, %C(yellow)%an%Creset)' --abbrev-commit --date=relative
   lm = log --graph --pretty=format:'%Cred%h%Creset - %s (%Cgreen%cr, %C(yellow)%an%Creset)' master.. --abbrev-commit --date=relative
