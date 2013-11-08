@@ -28,6 +28,9 @@ alias gf="git fetch"
 # Rails & Ruby
 alias rs="bundle exec rails server -e asset_development"
 
+# Ghost
+alias ssh-ghost="ssh ubuntu@ec2-54-227-31-29.compute-1.amazonaws.com"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
